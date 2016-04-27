@@ -1,7 +1,4 @@
 def fizz_buzz(number)
-  number
-end
-def fizz_buzz(number)
   case
     when divisible_by_three?(number) then 'fizz'
     else number
